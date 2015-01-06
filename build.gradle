@@ -21,7 +21,7 @@ jar {
 
 sourceCompatibility = 1.6
 version = '0.0.1'
-group = 'org.springframework'
+group = 'org.springframework.boot'
 
 
 repositories {
@@ -47,7 +47,7 @@ uploadArchives {
             }
             pom.version = '0.0.1'
             pom.artifactId = 'spring-boot-starter-axon'
-//            pom.groupId = 'org.springframework'
+//            pom.groupId = 'org.springframework.boot'
         }
     }
 }
